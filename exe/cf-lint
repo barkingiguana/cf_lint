@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'barking_iguana/cf_lint'
+
+BarkingIguana::CfLint::Cli.new(ARGV).run

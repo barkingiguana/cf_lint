@@ -1,0 +1,59 @@
+PATH
+  remote: .
+  specs:
+    barking_iguana-cf_lint (0.0.1)
+      barking_iguana-benchmark
+      barking_iguana-logging
+      cfn-model
+      colorize
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    barking_iguana-benchmark (0.1.1)
+    barking_iguana-logging (0.1.7)
+      barking_iguana-otk
+      term-ansicolor
+    barking_iguana-otk (0.1.0)
+    cfn-model (0.1.12)
+      kwalify (= 0.7.2)
+    colorize (0.8.1)
+    diff-lcs (1.3)
+    docile (1.1.5)
+    json (2.1.0)
+    kwalify (0.7.2)
+    rake (10.5.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.0)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.0)
+    simplecov (0.15.1)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
+    term-ansicolor (1.6.0)
+      tins (~> 1.0)
+    tins (1.14.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  barking_iguana-cf_lint!
+  bundler (~> 1.13)
+  rake (~> 10.0)
+  rspec (~> 3.0)
+  simplecov
+
+BUNDLED WITH
+   1.16.0
